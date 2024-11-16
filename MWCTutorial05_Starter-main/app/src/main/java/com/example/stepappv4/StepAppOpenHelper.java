@@ -121,11 +121,12 @@ public class StepAppOpenHelper extends SQLiteOpenHelper {
         // 5. Close the cursor and database
         cursor.close();
         database.close();
+        database.close();
 
         // 6. Return the map with hours and number of steps
         return map;
     }
-
+//nsdvsnbvj
 
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
