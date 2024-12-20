@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Foody</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_shopping_cart">Shopping Cart</string>
+
+
+    <string name="hint_food_name">Enter food name</string>
+    <string name="btn_scan">Scan</string>
+    <string name="btn_search">Search</string>
+    <string name="btn_voice_input">Voice Input</string>
+    <string name="btn_view_purchases">View Purchases</string>
+
+</resources>

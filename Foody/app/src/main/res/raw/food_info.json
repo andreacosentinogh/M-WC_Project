@@ -1,0 +1,71 @@
+{
+  "banana": {
+    "calories": 89,
+    "origin": "Ecuador",
+    "carbon_footprint": 0.13,
+    "category": "fruit",
+    "Vitamins": ["Vitamin B6", "Vitamin C"]
+  },
+  "beef": {
+    "calories": 250,
+    "origin": "USA",
+    "carbon_footprint": 27,
+    "category": "meat",
+    "Protein Content": "26g per 100g"
+  },
+  "carrot": {
+    "calories": 41,
+    "origin": "Netherlands",
+    "carbon_footprint": 0.04,
+    "category": "vegetable",
+    "Vitamins": ["Vitamin A", "Vitamin K"]
+  },
+  "salmon": {
+    "calories": 208,
+    "origin": "Norway",
+    "carbon_footprint": 11,
+    "category": "seafood",
+    "Omega3 Content": "1.8g per 100g"
+  },
+  "apple": {
+    "calories": 52,
+    "origin": "New Zealand",
+    "carbon_footprint": 0.18,
+    "category": "fruit",
+    "Vitamins": ["Vitamin C", "Vitamin K"]
+  },
+  "rice": {
+    "calories": 130,
+    "origin": "Thailand",
+    "carbon_footprint": 1.2,
+    "category": "grain",
+    "Fiber Content": "1.8g per 100g"
+  },
+  "chicken": {
+    "calories": 165,
+    "origin": "Brazil",
+    "carbon_footprint": 6.9,
+    "category": "meat"
+  },
+  "broccoli": {
+    "calories": 55,
+    "origin": "Italy",
+    "carbon_footprint": 0.07,
+    "category": "vegetable",
+    "Vitamins": ["Vitamin C", "Vitamin K"]
+  },
+  "milk": {
+    "calories": 42,
+    "origin": "Germany",
+    "carbon_footprint": 1.4,
+    "category": "dairy",
+    "Calcium Content": "125mg per 100ml"
+  },
+  "almond": {
+    "calories": 576,
+    "origin": "California, USA",
+    "carbon_footprint": 0.48,
+    "category": "nut",
+    "Protein Content": "21g per 100g"
+  }
+}

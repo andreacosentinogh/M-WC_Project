@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <!-- Daily Overview Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daily Overview"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/dailyCaloriesChart"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginEnd="4dp" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/dailyCO2Chart"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginStart="4dp" />
+        </LinearLayout>
+
+        <!-- Monthly Overview Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monthly Overview"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/monthlyCaloriesChart"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginEnd="4dp" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/monthlyCO2Chart"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginStart="4dp" />
+        </LinearLayout>
+
+        <!-- Totals Section -->
+        <TextView
+            android:id="@+id/totalProducts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Products: 0"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/totalCalories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Calories: 0"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/totalCO2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total CO₂: 0 kg"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginTop="4dp" />
+
+        <!-- Items Bought on Selected Day -->
+        <TextView
+            android:id="@+id/itemsListLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Items Bought on Selected Day"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/dailyItemsList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dividerHeight="1dp"
+            android:visibility="gone" />
+    </LinearLayout>
+</ScrollView>

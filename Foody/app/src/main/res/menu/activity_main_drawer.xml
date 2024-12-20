@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/baseline_app_shortcut_24"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_shopping_cart"
+        android:icon="@drawable/baseline_add_shopping_cart_24"
+        android:title="Shopping Cart" />
+
+    <item
+        android:id="@+id/nav_user_data"
+        android:icon="@drawable/baseline_data_exploration_24"
+        android:title="User Data" />
+
+</menu>
+
